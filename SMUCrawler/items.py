@@ -10,6 +10,6 @@ import scrapy
 
 class SmucrawlerItem(scrapy.Item):
     title = scrapy.Field()
-    data = scrapy.Field()
+    date = scrapy.Field()
     url = scrapy.Field()
     main = scrapy.Field()
