@@ -1,3 +1,3 @@
 from scrapy import cmdline
 
-cmdline.execute("scrapy crawl sem".split())
+cmdline.execute("scrapy crawl SemAcademic".split())

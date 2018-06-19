@@ -13,3 +13,4 @@ class SmucrawlerItem(scrapy.Item):
     date = scrapy.Field()
     url = scrapy.Field()
     main = scrapy.Field()
+    category = scrapy.Field()
